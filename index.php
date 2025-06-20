@@ -1,7 +1,41 @@
-<?php
-$title = "Chris Tozzi - Home";
-include 'header.php';
-?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Header Template</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="wrapper">
+</div>
+
+<div id="menu">
+<ul>
+  <li><a href="index.html">home</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="CV.html">CV</a></li>
+  <li><a href="links.html">Links</a></li>
+  <!--<li><a href="commands.html">Linux commands</a></li>-->
+  <li><a href="repyblican.html">repyblican.py</a></li>
+</ul>
+</div>
+<div id="page">
+<div id="content">
+<div class="post">
+<div class="entry">
+
+<!-- This was the header template used by other PHP files -->
+
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
 
 <!--<p><img float="left" src="http://www.coas.howard.edu/history/images/Tozzi.JPG" height="20%" width="20%"></div>-->
 
@@ -13,4 +47,4 @@ include 'header.php';
 
 <p>Beyond my scholarly work, I write frequently on a freelance basis for a variety of media sites on topics such as open source, machine learning and blockchain.</p>
 
-<?php include 'footer.php' ?>
+
